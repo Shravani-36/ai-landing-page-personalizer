@@ -1,27 +1,72 @@
-# AI Landing Page Personalizer
+# 🚀 AI Landing Page Personalizer
 
-## Overview
-This project builds a simple AI system that personalizes landing pages based on ad creatives.
+## 📌 Overview
 
-## Features
-- Input ad creative + landing page URL
-- Extract page content
-- Generate CRO-optimized improvements
-- Show before vs after comparison
+An AI-powered app that personalizes landing page content based on ad creatives to improve conversion rates.
 
-## Tech Stack
-- Streamlit
-- OpenAI API
-- BeautifulSoup
+---
 
-## Flow
-User Input → Page Scraping → AI Processing → Output
+## 🎯 Problem
 
-## Assumptions
-- Landing page is static HTML
-- Only text changes (no UI changes)
+Ads and landing pages often don’t match → users drop off.
 
-## Challenges handled
-- Hallucination → restricted prompts
-- Broken UI → text-only edits
-- Inconsistency → structured output
+---
+
+## 💡 Solution
+
+This system:
+
+* Analyzes ad intent
+* Extracts landing page content
+* Generates improved content aligned with the ad
+
+---
+
+## ⚙️ How It Works
+
+Ad Input + URL → Content Extraction → Personalization → Output
+
+---
+
+## ✨ Features
+
+* Input ad + landing page URL
+* Extract page content
+* Generate personalized headline, CTA, and copy
+* Side-by-side comparison
+
+---
+
+## 🛠️ Tech Stack
+
+* Streamlit
+* Python
+* BeautifulSoup
+
+---
+
+## 🚀 Live Demo
+
+👉 Add your link here
+
+---
+
+## ▶️ Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 🧠 Note
+
+Currently uses rule-based logic to simulate AI.
+Can be extended using LLMs for advanced personalization.
+
+---
+
+## 👤 Author
+
+Shravani Kola
