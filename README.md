@@ -67,7 +67,13 @@ streamlit run app.py
 ```
 
 ---
+## 📸 Screenshots
 
+### 🧾 Input Screen
+1[input](input.png)
+
+### ✨ Output Screen
+![Output](output.png)
 ## 🧠 Note
 
 Currently uses rule-based logic to simulate AI.
