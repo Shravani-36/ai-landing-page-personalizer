@@ -44,6 +44,14 @@ Ad Input + URL → Content Extraction → Personalization → Output
 * BeautifulSoup
 
 ---
+## 🧠 System Design
+
+- Ad Analyzer → extracts intent
+- Page Analyzer → extracts content
+- Personalization Engine → improves messaging
+
+Flow:
+Ad + URL → Processing → Enhanced Output
 
 ## 🚀 Live Demo
 
